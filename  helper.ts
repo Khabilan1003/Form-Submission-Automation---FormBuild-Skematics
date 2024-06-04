@@ -69,7 +69,7 @@ export function generateChoice(field: FormField): SubmissionField | null {
   return null;
 }
 
-// 4.RATING, 5.OPINION_SCALE
+// 6.RATING, 7.OPINION_SCALE
 export function generateRating(field: FormField): SubmissionField | null {
   if (![FieldKindEnum.RATING, FieldKindEnum.OPINION_SCALE].includes(field.kind))
     throw new Error("Invalid Type: Expected RATING or OPINION SCALE");
@@ -88,7 +88,7 @@ export function generateRating(field: FormField): SubmissionField | null {
   return null;
 }
 
-// 6.EMAIL, 7.URL, 8.PHONE_NUMBER
+// 8.EMAIL, 9.URL, 10.PHONE_NUMBER
 export function generateEmailUrlPhone(
   field: FormField
 ): SubmissionField | null {
@@ -125,7 +125,7 @@ export function generateEmailUrlPhone(
   return null;
 }
 
-// 9.DATE and 10.DATE_RANGE
+// 11.DATE and 12.DATE_RANGE
 export function generateDate(field: FormField): SubmissionField | null {
   if (![FieldKindEnum.DATE, FieldKindEnum.DATE_RANGE].includes(field.kind))
     throw new Error("Invalid Type: Expected DATE or DATE_RANGE");
@@ -157,7 +157,7 @@ export function generateDate(field: FormField): SubmissionField | null {
   return null;
 }
 
-// 11. FILE_UPLOAD
+// 13. FILE_UPLOAD
 export async function generateFile(
   field: FormField
 ): Promise<SubmissionField | null> {
