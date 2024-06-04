@@ -1,0 +1,17 @@
+{
+  "name": "fake-data-generator",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/mime-types": "^2.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "axios": "^1.7.2",
+    "mime-types": "^2.1.35"
+  }
+}

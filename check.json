@@ -1,0 +1,691 @@
+{
+  "id": "00000000-0000-0000-0000-000000000008",
+  "userId": 2,
+  "name": "Nidhi Prayas Application",
+  "description": null,
+  "status": "1",
+  "retentionAt": 0,
+  "createdAt": 1717429653,
+  "updatedAt": 1717429653,
+  "setting": {
+    "formId": "00000000-0000-0000-0000-000000000008",
+    "allowArchive": true,
+    "requirePassword": false,
+    "password": null,
+    "enableIpLimit": false,
+    "ipLimitCount": 1,
+    "published": false,
+    "enableExpirationDate": false,
+    "enabledAt": 0,
+    "closedAt": 0,
+    "enableQuotaLimit": false,
+    "quotaLimit": 0,
+    "closedFormTitle": null,
+    "closedFormDescription": null,
+    "createdAt": 1717429653,
+    "updatedAt": 1717429653
+  },
+  "groups": [
+    {
+      "groupId": "00000000-0000-0000-0000-00000000000a",
+      "title": "Essential Criteria",
+      "description": null,
+      "position": 1,
+      "fields": [
+        {
+          "id": "00000000-0000-0000-0000-00000000001a",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000a",
+          "position": 1,
+          "title": "Applicant Confirms that he/she has not been a recipient of any NIDHI-PRAYAS or similar support previously for the same innovative concept as proposed in this form. NIDHI-PRAYAS can be used only once.",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000001b",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000a",
+          "position": 2,
+          "title": "Applicant is planning to pursue NIDHI- PRAYAS full time with no other concurrent commitments",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000001c",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000a",
+          "position": 3,
+          "title": "Applicant confirms that he/she is fully committed to work towards the prototype development for which the support is being sought and should not treat this as a stop gap arrangement to support any other pursuits",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000001d",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000a",
+          "position": 4,
+          "title": "Applicant has or is planning to register for the pre incubation or incubation program at the TBI for the entire duration of PRAYAS support",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000001e",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000a",
+          "position": 5,
+          "title": "Applicant confirms that if selected for NIDHI-PRAYAS, then they (applicant and their team members) will avail support for their project from only one PRAYAS Centre. If the applicant is found seeking NIDHI-PRAYAS support for the same idea from two different PCs, then the PC reserves right to discontinue the PRAYAS support and appropriate action will be taken on the applicant.",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000001f",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000a",
+          "position": 6,
+          "title": "Applicant confirms that they will not avail the funding support in parallel for both the schemes i.e NIDHI-PRAYAS and NIDHI - EIR from the same or different centers.",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "00000000-0000-0000-0000-00000000000b",
+      "title": null,
+      "description": null,
+      "position": 2,
+      "fields": [
+        {
+          "id": "00000000-0000-0000-0000-000000000020",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000b",
+          "position": 1,
+          "title": "Have you also applied / in process of applying to any other PRAYAS Centre (s) for NIDHI-PRAYAS and/or NIDHI-EIR grant",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "00000000-0000-0000-0000-00000000000c",
+      "title": null,
+      "description": null,
+      "position": 3,
+      "fields": [
+        {
+          "id": "00000000-0000-0000-0000-000000000021",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000c",
+          "position": 1,
+          "title": "Have you been Approved / Received the NIDHI-PRAYAS ?",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "00000000-0000-0000-0000-00000000000d",
+      "title": null,
+      "description": null,
+      "position": 4,
+      "fields": [
+        {
+          "id": "00000000-0000-0000-0000-000000000022",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000d",
+          "position": 1,
+          "title": "Have you received financial support / award for your present work from any other sources? ",
+          "description": "",
+          "kind": "yes_no",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "yes"
+              },
+              {
+                "id": 2,
+                "label": "no"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "groupId": "00000000-0000-0000-0000-00000000000e",
+      "title": "Activity details/work plan",
+      "description": null,
+      "position": 5,
+      "fields": [
+        {
+          "id": "00000000-0000-0000-0000-000000000023",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000e",
+          "position": 1,
+          "title": "Activities",
+          "description": "",
+          "kind": "long_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000024",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000e",
+          "position": 2,
+          "title": "Monitorable Milestones",
+          "description": "",
+          "kind": "long_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000025",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000e",
+          "position": 3,
+          "title": "Duration (months)",
+          "description": "",
+          "kind": "long_text",
+          "required": true,
+          "property": {}
+        }
+      ]
+    },
+    {
+      "groupId": "00000000-0000-0000-0000-00000000000f",
+      "title": null,
+      "description": null,
+      "position": 6,
+      "fields": [
+        {
+          "id": "00000000-0000-0000-0000-000000000026",
+          "fieldGroupId": "00000000-0000-0000-0000-00000000000f",
+          "position": 1,
+          "title": "Project period in months (Not more than 12-14 months)",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        }
+      ]
+    },
+    {
+      "groupId": "00000000-0000-0000-0000-000000000010",
+      "title": null,
+      "description": null,
+      "position": 7,
+      "fields": [
+        {
+          "id": "00000000-0000-0000-0000-000000000027",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 1,
+          "title": "Title of the proposed project",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000028",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 2,
+          "title": "Name of the applicant",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000029",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 3,
+          "title": "Father's name/Husband's name",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000002a",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 4,
+          "title": "Date of Birth",
+          "description": "",
+          "kind": "date",
+          "required": true,
+          "property": {
+            "allowTime": false
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000002b",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 5,
+          "title": "Email ID",
+          "description": "",
+          "kind": "email",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000002c",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 6,
+          "title": "Mobile Number",
+          "description": "",
+          "kind": "phone_number",
+          "required": true,
+          "property": {
+            "defaultCountryCode": "+91"
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000002d",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 7,
+          "title": "Landline Number",
+          "description": "",
+          "kind": "phone_number",
+          "required": false,
+          "property": {
+            "defaultCountryCode": "+91"
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000002e",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 8,
+          "title": "Gender",
+          "description": "",
+          "kind": "multiple_choice",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "male"
+              },
+              {
+                "id": 2,
+                "label": "female"
+              },
+              {
+                "id": 3,
+                "label": "others"
+              }
+            ]
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000002f",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 9,
+          "title": "Category(General/SC/ST/OBC)",
+          "description": "",
+          "kind": "multiple_choice",
+          "required": true,
+          "property": {
+            "choices": [
+              {
+                "id": 1,
+                "label": "General"
+              },
+              {
+                "id": 2,
+                "label": "SC"
+              },
+              {
+                "id": 3,
+                "label": "ST"
+              },
+              {
+                "id": 4,
+                "label": "OBC"
+              }
+            ]
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000030",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 10,
+          "title": "Educational Qualification",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000031",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 11,
+          "title": "Postal Address",
+          "description": "",
+          "kind": "long_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000032",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 12,
+          "title": "Permanent Address",
+          "description": "",
+          "kind": "long_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000033",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 13,
+          "title": "Recent Passport Size Photograph",
+          "description": "",
+          "kind": "file_upload",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000034",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 14,
+          "title": "Signature",
+          "description": "",
+          "kind": "file_upload",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000035",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 15,
+          "title": "Address Proof",
+          "description": "Please enclose residence certificate issued by Sub-Divisional Magistrate(SDM)/District Magistrate(DM) or a copy of ration card or any other document regarding proof of Residence",
+          "kind": "file_upload",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000036",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 16,
+          "title": "Startup - Company incorporation / MSME Certificate",
+          "description": "less than 7 years old company",
+          "kind": "file_upload",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000037",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 17,
+          "title": "Name of the Directors/Authorised persons of company",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000038",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 18,
+          "title": "Company PAN Card no",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000039",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 19,
+          "title": "Profession of the Applicant",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000003a",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 20,
+          "title": "Applicant working - Name & Address of the Institution/Organization",
+          "description": "",
+          "kind": "long_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000003b",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 21,
+          "title": "NOC Certificate",
+          "description": "For Innovator in Employment / Students with any R& D organisation / Academic Institution No Objection Certificate Upload NOC from Head of Institute /Organization is mandatorily required",
+          "kind": "file_upload",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000003c",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 22,
+          "title": "Annual Income of the applicant",
+          "description": "attach a copy of the latest Income Tax Returns filed",
+          "kind": "file_upload",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000003d",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 23,
+          "title": "Aadhaar No",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000003e",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 24,
+          "title": "Applicant PAN Card No",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-00000000003f",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 1,
+          "title": "Brief description of the idea highlighting innovative element",
+          "description": "",
+          "kind": "long_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000041",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 3,
+          "title": "Status of work already carried out (if any) such as",
+          "description": "Please Tick as applicable",
+          "kind": "multiple_choice",
+          "required": true,
+          "property": {
+            "allowMultiple": true,
+            "choices": [
+              {
+                "id": 1,
+                "label": "Idea Level"
+              },
+              {
+                "id": 2,
+                "label": "College Project"
+              },
+              {
+                "id": 3,
+                "label": "Lab Level-proof of concept"
+              },
+              {
+                "id": 4,
+                "label": "Paper Presentations"
+              },
+              {
+                "id": 5,
+                "label": "Working Prototype Ready"
+              },
+              {
+                "id": 6,
+                "label": "Any Other"
+              }
+            ]
+          }
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000042",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 3,
+          "title": "Science and working principle behind the idea",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000043",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 4,
+          "title": "Final outcome/deliverable of the project",
+          "description": "",
+          "kind": "short_text",
+          "required": true,
+          "property": {}
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000044",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000010",
+          "position": 3,
+          "title": "Who would be the beneficiary of this innovation and why?",
+          "description": "",
+          "kind": "long_text",
+          "required": true,
+          "property": {}
+        }
+      ]
+    },
+    {
+      "groupId": "00000000-0000-0000-0000-000000000011",
+      "title": null,
+      "description": null,
+      "position": 8,
+      "fields": [
+        {
+          "id": "00000000-0000-0000-0000-000000000040",
+          "fieldGroupId": "00000000-0000-0000-0000-000000000011",
+          "position": 2,
+          "title": "",
+          "description": "",
+          "kind": "long_text",
+          "required": false,
+          "property": {}
+        }
+      ]
+    }
+  ]
+}
